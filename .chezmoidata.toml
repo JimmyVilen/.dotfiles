@@ -1,0 +1,5 @@
+# Maskinspecifik data tillgänglig i templates som {{ .pnpm_home }} etc.
+# Överskrid på ny maskin i ~/.config/chezmoi/chezmoi.toml under [data]
+pnpm_home = "/home/jimmy/.local/share/pnpm"
+bun_install = "/home/jimmy/.bun"
+

@@ -1,0 +1,10 @@
+Host *
+  User git
+  IdentitiesOnly yes
+  IdentityAgent \\.\pipe\openssh-ssh-agent
+
+Host github.com
+  IdentityFile ~/.ssh/jimmy-work-github
+
+Host ssh.dev.azure.com
+  IdentityFile ~/.ssh/jimmy-work-azure-devops
